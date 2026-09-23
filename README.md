@@ -1,5 +1,22 @@
-# Vue 3 + Vite
+# FridgeMind Web Client
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+English | [简体中文](README.zh-CN.md)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+This repository contains the Vue 3 and Vite web client for the FridgeMind student project. The current source uses Element Plus and Axios; the repository does not by itself claim a working connection to a deployed backend.
+
+## Start locally
+
+~~~sh
+npm ci
+npm run dev
+~~~
+
+Other available scripts include npm run build and npm run preview.
+
+## Project files
+
+- src/ — frontend source
+- public/ — static assets
+- package.json and package-lock.json — scripts and pinned dependencies
+
+Keep local endpoints and credentials out of public documentation.
